@@ -1,0 +1,32 @@
+{
+  "name": "WebpackReactSimple",
+  "version": "0.0.1",
+  "description": "Webpack + React Starter Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack -p",
+    "start": "webpack-dev-server --dev-tool eval --hot --progress --colors"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^2.0.0",
+    "bower": "^1.4.1",
+    "css-loader": "^0.12.0",
+    "extract-text-webpack-plugin": "^0.8.1",
+    "file-loader": "^0.8.4",
+    "jsx-loader": "^0.13.2",
+    "node-libs-browser": "^0.5.0",
+    "node-sass": "^2.1.1",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.7",
+    "sass-loader": "^0.5.0",
+    "style-loader": "^0.12.2",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.5",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "babel-core": "^5.3.3",
+    "babel-loader": "^5.0.0",
+    "flux": "^2.0.3"
+  }
+}
